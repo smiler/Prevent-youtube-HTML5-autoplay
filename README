@@ -1,0 +1,4 @@
+A small greasemonkey script to prevent HTML5 videos on youtube from playing
+automatically.
+
+Tested under Firefox 8.0 and Safari 5 using the NinjaKit extension.
