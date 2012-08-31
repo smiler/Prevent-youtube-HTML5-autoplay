@@ -11,11 +11,13 @@
 // ==/UserScript==
 
 function onLoad() {
-    video = document.getElementsByTagName('video')[0];
-    if (video) {
-        video.pause();
-        video.currentTime = 0;
-    }
+	setTimeout(function(){
+    	video = document.getElementsByTagName('video')[0];
+		if (video) {
+		    video.pause();
+		    video.currentTime = 0;
+		}
+	}, 300);
 }
 
 window.addEventListener('load', onLoad, false);
